@@ -1,0 +1,41 @@
+public class FolhaDePagamento {
+
+	public static void main(String[] args) {
+		
+		String Entrada = "123abc123";
+		
+		String entrada1 = ("(\\d{3})\\w{3}(\\d{3})");
+		String r1 = Entrada.replaceAll(entrada1, "$1");
+		int r = Integer.parseInt(r1); //Transformando a String em inteiro
+		String r2 = Entrada.replaceAll(entrada1, "$2");
+		int r3 = Integer.parseInt(r2);
+		
+	
+		
+		String Entrada2= "asd2675asjdajhsd1887asd565askmbmmvLOL900xD99";
+		
+		String entrada2 = ("\\w{3}(\\d{4})\\w{9}(\\d{4})\\w{3}(\\d{3})\\w{11}(\\d{3})\\w{2}(\\d{2})");
+		boolean b = "asd2675asjdajhsd1887asd565askmbmmvLOL900xD99".matches("\\w{3}\\d{4}\\w{9}\\d{4}\\w{3}\\d{3}\\w{11}\\d{3}\\w{2}\\d{2}");
+		String en1 = Entrada2.replaceAll(entrada2, "$1");
+		double e1 = Double.parseDouble(en1);
+		String en2 = Entrada2.replaceAll(entrada2, "$2");
+		double e2 = Double.parseDouble(en2);
+		String en3 = Entrada2.replaceAll(entrada2, "$3");
+		double e3 = Double.parseDouble(en3);
+		String en4 = Entrada2.replaceAll(entrada2, "$4");
+		double e4 = Double.parseDouble(en4);
+		String en5 = Entrada2.replaceAll(entrada2, "$5");
+		double e5 = Double.parseDouble(en5);
+				
+		
+		System.out.println(b);
+		System.out.println("Dinheiro para reservar para pagar o salário na 1º Entrada é: " + (r + r3));
+		System.out.println("Dinheiro para reservar para pagar o salário na 2º Entrada é: " + (e1 + e2 + e3 + e4 + e5));
+		
+		
+		
+		
+	}
+	
+	
+}

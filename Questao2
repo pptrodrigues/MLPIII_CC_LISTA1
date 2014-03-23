@@ -1,0 +1,50 @@
+
+/*
+ 2) Defina e exemplifique cada uma das partes de um objeto:
+• Um estado (atributos)
+• Um comportamento (métodos)
+• Interface (assinaturas)
+• Uma identidade
+
+Resposta:
+
+Estado (atributos)
+Define os estados possíveis que um objeto pode assumir
+–
+São os valores dos atributos (propriedades)
+–
+Ex. Lampada - Acesa ou Apagada
+
+
+
+Comportamento:
+–
+São as funções que podem ser executadas por um determinado objeto
+–
+Corresponde aos métodos
+–
+O que você pode fazer com esse objeto
+
+Ex Lampada - Acender e Aparagar.
+
+
+Interfaces 
+
+A declaração de uma interface é muito semelhante a uma classe, com a diferença 
+de que as palavras abstract class são substituídas pela palavra interface. Uma
+interface, ao contrário de uma classe abstrata, não possui nenhuma implementação, 
+todos os métodos são abstratos. Mesmo que o programador omita o modificador abstract, 
+os métodos serão considerados abstratos por default. Todos os métodos de uma interface
+são públicos, mesmo que o modificador public seja omitido. Declarar um método de 
+uma interface como private ou protected gera erro em tempo de compilação. Além 
+disso, como uma interface é apenas uma especificação de uma classe e não uma 
+implementação, os métodos não podem ser final ou static. 
+Todas as variáveis declaradas em uma interface são constantes, mesmo que não possuam 
+os modificadores static final. Além disso, como elas são constantes, elas devem ser 
+inicializadas. Desta maneira, você pode usar uma interface para compartilhar constantes
+entre várias classes. Essa utilização da interface poderia ser comparada como usar um
+arquivo de cabeçalho com um grande número de constantes em C.
+
+
+
+*/

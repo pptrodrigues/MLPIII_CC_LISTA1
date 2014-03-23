@@ -1,0 +1,23 @@
+/*
+ *3) Defina e exemplifique os benefícios da Orientação a Objetos. 
+ * Resposta:
+ * A orientação a objetos é uma tecnologia de desenvolvimento composta por metodologias e linguagens
+ * usada na análise, no projeto e na implementação de programas. Para entendermos os conceitos de 
+ * orientação a objetos é necessário entendermos o que é um objeto. Por exemplo, consideremos objetos 
+ * do mundo real: seu cachorro, seu computador, sua bicicleta. Os objetos do mundo real têm duas 
+ * características: eles tem estado e comportamento. Por exemplo, cachorros tem estados (nome, cor, tamanho)
+ * e comportamentos (latir, andar, correr). Objetos de software, assim como objetos do mundo real,
+ * possuem estado (variáveis) e comportamento (métodos). Podemos representar objetos do mundo real
+ * através de objetos de software (por exemplo, um livro), assim como também podemos modelar conceitos 
+ * abstratos (por exemplo, uma ação do usuário em uma interface gráfica). Por exemplo, considere 
+ * um objeto que representa uma conta corrente em um sistema bancário. Através dos métodos, pode-se,
+ * por exemplo, depositar e sacar. Além dos métodos responsáveis pelos serviços, o objeto deve conter
+ * dados, como o nome do dono da conta e o valor do saldo. Como estes dados geralmente estão protegidos,
+ * e não podem ser acessados diretamente, o acesso aos dados é feito através dos métodos. 
+ * 
+ * Os principais Beneficios
+ * Acelera o tempo de desenvolvimento
+ * Reduz o tempo de manutenção
+ * Mais facil de compreender e adaptar
+ * Código de melhor qualidade
+*/

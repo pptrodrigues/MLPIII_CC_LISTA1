@@ -1,0 +1,45 @@
+public class Fatura {
+	String numero;
+	String descricao;
+	int quantidadeComprada = 2 ;
+	double precoDoItem = 2;
+	double valorDaFatura;
+	
+	
+	
+	
+	public String getNumero(){
+		return this.numero;
+	}
+	public void setNumero(String numero){
+		this.numero = numero;
+	}
+	public String getDescricao(){
+		return this.descricao;
+	}
+	public void setDescricao(String descricao){
+		this.descricao = descricao;
+	}
+	public int getQuantidadeComprada(){
+		return this.quantidadeComprada;
+	}
+	public void setQuantidadeComprada(int quantidadeComprada){
+		this.quantidadeComprada = quantidadeComprada;
+	}
+	public double getPrecoDoItem(){
+		return this.precoDoItem;
+	}
+	public void setPrecoDoItem(double precoDoItem){
+		this.precoDoItem = precoDoItem;
+	}
+	
+	public double getValorDaFatura(){
+		return this.valorDaFatura + this.precoDoItem * this.quantidadeComprada;
+	}
+	public void setValorDaFatura(double valorDaFatura){
+		this.valorDaFatura = valorDaFatura;
+	}
+	
+	
+}
+	

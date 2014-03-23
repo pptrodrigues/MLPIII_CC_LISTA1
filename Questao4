@@ -1,0 +1,14 @@
+
+/*
+ * 4) Defina e exemplifique Polimorfismo.
+ * 
+ * Resposta:
+ * 
+ * O Polimorfismo é a capacidade de uma variável se referir em tempo de execução a objetos de diversas classes.
+ * Podemos defini-lo também como sendo o nome dado à capacidade que objetos diferentes têm de responder a uma 
+ * mesma mensagem. Uma mesma mensagem pode apresentar formas de execução diferentes, próprias de cada objeto.
+ * Com esta característica o usuário pode enviar uma mensagem genérica e abandonar detalhes sobre a exata
+ * implementação sobre o objeto receptor. 
+ * O polimorfismo é uma característica importante da orientação a objetos que está diretamente ligada à hereditariedade de classes.
+ * 
+ */

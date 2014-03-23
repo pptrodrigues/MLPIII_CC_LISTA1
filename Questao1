@@ -1,0 +1,20 @@
+package br.unipe.cc.mlp.resposta1;
+
+/*
+*1) Sabemos que uma grande vantagem do Java é a portabilidade, mas para
+*isso os compiladores da linguagem funcionam de uma forma diferente.
+*Explique todo processo da compilação até a execução de um programa em
+*Java.
+*
+*Resposta:
+*
+*Compilar significa traduzir o programa escrito em uma linguagem de programação de alto nível
+*(ex: Java) em uma linguagem de máquina, que pode ser compreendida e executa
+*da pelo processador (ex: Intel Pentium) do computador em um determinado sistema operacional (ex:
+*Microsoft Windows). No caso de Java, o programa não é compilado para uma plataforma
+*(processador e sistema operacional) específica, mas para uma linguagem chamada bytecode 
+*de uma máquina virtual (JVM–Java Virtual Machine). A máquina virtual é emulada em software em
+*várias plataformas diferentes, de modo que um mesmo programa em bytecode pode ser executado em
+*todas elas. Essa característica se chama “portabilid ade”. Repare que isso não éverdade para 
+*outras linguagens
+*/
